@@ -15,3 +15,5 @@ before_script:
 deploy:
   provider: npm
   api_key: $NPM_TOKEN
+  on:
+    branch: gh-pages
