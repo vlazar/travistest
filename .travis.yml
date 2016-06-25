@@ -6,6 +6,7 @@ node_js:
 branches:
   only:
     - gh-pages
+    - /v\d+\.\d+/
 
 before_script:
   - export CHROME_BIN=chromium-browser
